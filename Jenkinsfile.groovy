@@ -1,5 +1,5 @@
 node() {
-    
+    print "From SCM"
    stage ("Checkout") {
        
        git url: 'https://github.com/saravanang/dinfinapp.git' 
