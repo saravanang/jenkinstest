@@ -2,7 +2,7 @@ node() {
     print "From SCM"
    stage ("Checkout") {
        
-       git url: 'https://github.com/saravanang/dinfinapp.git' 
+       git url: 'https://github.com/ksubbarao/Beach-resort.git' 
        sh "ls -ltr"
        
    }
